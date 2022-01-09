@@ -1,0 +1,2 @@
+INSERT INTO Pupils VALUES
+(#ID, "#FNAME", "#SNAME", #CLASS)

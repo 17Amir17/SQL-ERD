@@ -1,0 +1,9 @@
+POST http://localHost:8080/new/pupil HTTP/1.1
+content-type: application/json
+
+{
+    "id": 7,
+    "fname": "Yakov",
+    "sname": "Cohen",
+    "class_id": 3
+}
