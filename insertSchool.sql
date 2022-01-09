@@ -36,7 +36,7 @@ INSERT INTO Classes_Subjects VALUES
 (1, "Science"),(2, "Science"),(4, "Science"),(6, "Science"),
 (3, "Sport"),(5, "Sport"),(6, "Sport"),
 (6, "English"),
-(5, "Biology");
+(5, "Bioligy");
 
 INSERT INTO Teachers_Subjects VALUES
 (1, "Math"),(1, "Science"),

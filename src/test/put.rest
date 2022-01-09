@@ -1,0 +1,20 @@
+
+PUT http://localHost:8080/update/pupil/1 HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1,
+    "fname": "Yakovvvvvv",
+    "sname": "Cohen",
+    "subjects": ["English", "Math"]
+}
+
+###
+
+PUT http://localHost:8080/update/class/1 HTTP/1.1
+content-type: application/json
+
+{
+    "class_id": 1,
+    "teacher_id": 2
+}

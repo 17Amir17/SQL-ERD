@@ -1,0 +1,1 @@
+UPDATE Classes SET #SET WHERE id = #ID
