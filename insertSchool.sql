@@ -6,6 +6,7 @@ INSERT INTO Subjects VALUES
 ("Bioligy");
 
 INSERT INTO Teachers Values
+(-1, "No", "Teacher"),
 (1, "Rahel", "Ben Ami"),
 (2, "Yafim", "Kushner"),
 (3, "Itzik", "Zohar"),

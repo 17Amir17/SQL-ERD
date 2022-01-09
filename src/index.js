@@ -4,6 +4,7 @@ const errorHandler = require('./middleware/errorHandler');
 const getRouter = require('./routers/getRouter');
 const postRouter = require('./routers/postRouter');
 const putRouter = require('./routers/putRouter');
+const deletRouter = require('./routers/deleteRouter');
 const { connect } = require('./db/index');
 
 //Connect to db
@@ -18,6 +19,7 @@ app.use(express.json());
 app.use('/', getRouter);
 app.use('/new', postRouter);
 app.use('/update', putRouter);
+app.use('/remove', deletRouter);
 
 app.use(errorHandler);
 
