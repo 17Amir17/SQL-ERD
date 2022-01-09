@@ -1,0 +1,3 @@
+DELETE  http://localHost:8080/remove/pupil/1 HTTP/1.1
+
+###
