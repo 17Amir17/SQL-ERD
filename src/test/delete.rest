@@ -1,3 +1,5 @@
 DELETE  http://localHost:8080/remove/pupil/1 HTTP/1.1
 
 ###
+
+DELETE  http://localHost:8080/remove/teacher/4 HTTP/1.1

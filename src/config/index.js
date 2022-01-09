@@ -1,8 +1,9 @@
 exports.sqlConfig = {
-  host: process.env.MYSQL_DATABASE || 'localHost',
+  host: process.env.MYSQL_HOST || 'localHost',
   user: process.env.MYSQL_USER || 'root',
   password: process.env.MYSQL_PASSWORD || 'secret',
-  database: process.env.MYSQL_ROOT_PASSWORD || 'mydb',
+  multipleStatements: true,
 };
 
+exports.database = process.env.MYSQL_DATABASE || 'mydb';
 exports.port = process.env.PORT || 8080;
