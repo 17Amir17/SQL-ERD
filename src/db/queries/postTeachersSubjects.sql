@@ -1,0 +1,1 @@
+INSERT INTO Teachers_Subjects VALUES 
