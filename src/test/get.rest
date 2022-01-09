@@ -1,0 +1,13 @@
+GET http://localHost:8080/teacher/1 HTTP/1.1
+
+###
+
+GET http://localHost:8080/class/1 HTTP/1.1
+
+###
+
+GET http://localHost:8080/pupil/1 HTTP/1.1
+
+###
+
+GET http://localHost:8080/subjects HTTP/1.1

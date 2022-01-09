@@ -1,0 +1,1 @@
+SELECT * FROM Pupils WHERE id = #ID
